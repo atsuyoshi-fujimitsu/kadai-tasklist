@@ -4,11 +4,11 @@
     <c:param name="content">
         <h2>新規タスク登録ページ</h2>
 
-        <form method="POST" action="${pageCpntext.request.contextPath}/create">
+        <form method="POST" action="${pageContext.request.contextPath}/create">
             <c:import url="_form.jsp" />
         </form>
 
-        <p><a href="${pageCpntext.request.contextPath}/index">一覧に戻る</a></p>
+        <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
 
     </c:param>
 </c:import>
