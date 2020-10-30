@@ -13,9 +13,7 @@
             <div id="content">
                 ${param.content}
             </div>
-            <div id="footer">
 
-            </div>
         </div>
     </body>
 </html>
